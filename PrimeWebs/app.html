@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APP</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" derfer></script>
+ <style>
+    * {
+    box-sizing: border-box;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+img {
+    background-color: rgba(0, 0, 255, 0.158);
+}
+
+header {
+    width: 100%;
+    padding: 0.01%;
+    text-align: center;
+    background-color: black;
+    border-bottom: 2px solid goldenrod;
+}
+
+header img {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+#main {
+    padding: 5%;
+    text-align: center;
+    margin-top: 0.8rem;
+    margin: auto;
+    width: 80%;
+}
+#main h1 {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    text-decoration: underline chartreuse;
+}
+#main input {
+    background-color: rgb(32, 31, 31);
+    color: white;
+    padding: 0.5rem;
+    border: 1px solid white;
+    line-height: 20px;
+    border-radius: 20px;
+    font: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 250px;
+    margin: auto;
+    margin-bottom: 0.7rem;
+}
+#main input:hover, 
+#main input:focus {
+    background-color: rgba(0, 0, 0, 0.822);
+    transition: 0.4s;
+}
+#main input::placeholder {
+    color: white;
+}
+#main button {
+    background-color: chartreuse;
+    border-radius: 20px;
+    padding: 0.7rem;
+    border: none;
+    font-weight: bold;
+    border: 1px solid rgb(207, 199, 199);
+}
+#main button:hover {
+    background-color: rgba(128, 255, 0, 0.452);
+    border: 1.5px solid white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#message {
+    padding: 2rem;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: chartreuse;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer {
+    width: 100%;
+    margin-top: 2rem;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    font-size: 95%;
+    padding: 0.01%;
+    border-top: 2px solid goldenrod;
+}
+ </style>   
+ </head>
+<body>
+
+    <header>
+       <h6><img src="logo.png" alt="logo"></h6> 
+    </header>
+
+    <section>
+        <div id="main">
+          <h1><b style="font-family: Script MT; color: chartreuse; font-size: 55px">P</b>rimeWebs Log in</h1>
+         <form>
+          <input id="first-name" type="text" placeholder="First Name"><br>
+          <input id="last-name" type="text" placeholder="Last Name"><br>
+          <input id="password" type="password" placeholder="Password Please"><br> 
+          <button type="button" id="mybtn">Submit</button>
+         </form>
+        </div>
+        <div id="message">
+    
+        </div>
+    </section>
+    <footer>
+        <div id="footer">
+            <p>&copy 2024 by Ekemu Eric<br>
+                Powered by Empire Webs
+            </p>
+        </div>
+    </footer>
+
+
+</body>
+</html>
